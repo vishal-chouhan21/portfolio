@@ -12,8 +12,8 @@ export const experience: ExperienceEntry[] = [
   {
     role: "Full-Stack Developer (MERN)",
     company: "Freelance / Independent Projects",
-    duration: "2023 — Present",
-    type: "2+ Years",
+    duration: "2024 — Present",
+    type: "1+ Years",
     summary:
       "Designing and shipping production-grade full-stack applications end-to-end — from database schema and API architecture to cloud deployment, monitoring and iteration.",
     points: [

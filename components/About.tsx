@@ -5,7 +5,7 @@ import { fadeUp, staggerContainer } from "../lib/utils";
 import { accentAt } from "../lib/palette";
 
 const stats = [
-  ["2+", "Years of Experience"],
+  ["1+", "Years of Experience"],
   ["5+", "Production Apps Deployed"],
   ["3", "Databases (MongoDB, PostgreSQL, SQL)"],
   ["15+", "Technologies"],
@@ -28,7 +28,7 @@ export default function About() {
         </h2>
 
         <p className="section-copy">
-          I&apos;m a Full-Stack Developer with 2+ years of experience building
+          I&apos;m a Full-Stack Developer with 1+ years of experience building
           and shipping scalable, production-ready web applications end-to-end.
           Beyond writing frontend and backend code, I design database schemas in
           both MongoDB and PostgreSQL/SQL, build secure REST APIs, and take

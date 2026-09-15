@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -44,12 +45,36 @@ export default function Hero() {
           className="absolute bottom-[18%] left-6 z-30 hidden flex-col xl:left-16 xl:flex"
         >
           <div className="mb-3 flex -space-x-3">
-            <div className="h-9 w-9 rounded-full border-2 border-[#0d0a17] bg-zinc-400" />
-            <div className="h-9 w-9 rounded-full border-2 border-[#0d0a17] bg-zinc-500" />
-            <div className="h-9 w-9 rounded-full border-2 border-[#0d0a17] bg-zinc-600" />
+            <a
+              href="https://github.com/vishal-chouhan21"
+              target="_blank"
+              rel="noreferrer"
+              className="flex h-9 w-9 items-center justify-center rounded-full border-2 border-[#0d0a17] bg-zinc-800 text-zinc-200 transition-transform hover:z-10 hover:scale-110 hover:text-white"
+              aria-label="GitHub"
+            >
+              <Github className="h-4 w-4" />
+            </a>
+
+            <a
+              href="https://linkedin.com/in/vishal-singh-chouhan-028463299"
+              target="_blank"
+              rel="noreferrer"
+              className="flex h-9 w-9 items-center justify-center rounded-full border-2 border-[#0d0a17] bg-zinc-800 text-zinc-200 transition-transform hover:z-10 hover:scale-110 hover:text-[#0a66c2]"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="h-4 w-4" />
+            </a>
+
+            <a
+              href="mailto:vishalsinghchouhan77@gmail.com"
+              className="flex h-9 w-9 items-center justify-center rounded-full border-2 border-[#0d0a17] bg-zinc-800 text-zinc-200 transition-transform hover:z-10 hover:scale-110 hover:text-emerald-400"
+              aria-label="Email"
+            >
+              <Mail className="h-4 w-4" />
+            </a>
           </div>
           <p className="text-sm font-medium text-zinc-300">
-            <span className="font-bold text-white">2+ Years</span> building
+            <span className="font-bold text-white">1+ Years</span> building
             scalable products
           </p>
         </motion.div>
@@ -62,13 +87,14 @@ export default function Hero() {
           className="absolute bottom-[18%] right-6 z-30 hidden flex-col text-right xl:right-16 xl:flex"
         >
           <h3 className="mb-2 text-lg font-semibold text-zinc-300">
-            Have any <span className="text-white">project in mind?</span>
+            Turning ide
+            <span className="text-white">as iinto engaging</span>
           </h3>
           <a
             href="#contact"
             className="group flex items-center justify-end gap-2 text-base font-semibold text-violet-400 transition-all hover:text-violet-300"
           >
-            Let&apos;s Work Together
+            digital experiences
             <ArrowRight
               size={18}
               className="transition-transform group-hover:translate-x-1"
@@ -104,29 +130,31 @@ export default function Hero() {
       >
         <ul className="flex w-[220px] flex-col gap-3 text-xs font-semibold tracking-[0.15em] text-zinc-400">
           <li className="border-b border-white/10 pb-3 transition hover:text-white">
-            WEB DESIGN
+            Full-Stack Web Development
           </li>
           <li className="border-b border-white/10 pb-3 transition hover:text-white">
-            UI/UX DESIGN
+            Frontend Development
           </li>
           <li className="border-b border-white/10 pb-3 transition hover:text-white">
-            PRODUCT DESIGN
+            Backend & API Development
           </li>
-          <li className="transition hover:text-white">BRANDING DESIGN</li>
+          <li className="transition hover:text-white">
+            Database & Data Architecture
+          </li>
         </ul>
 
         <ul className="flex w-[220px] flex-col gap-3 text-right text-xs font-semibold tracking-[0.15em] text-zinc-400">
           <li className="border-b border-white/10 pb-3 transition hover:text-white">
-            <a href="https://instagram.com/">INSTAGRAM</a>
+            <a href="https://instagram.com/">Payment Integration</a>
           </li>
           <li className="border-b border-white/10 pb-3 transition hover:text-white">
-            <a href="https://dribbble.com/">DRIBBBLE</a>
+            <a href="https://dribbble.com/">Admin & Business Dashboards</a>
           </li>
           <li className="border-b border-white/10 pb-3 transition hover:text-white">
-            <a href="https://linkedin.com/">LINKEDIN</a>
+            <a href="https://linkedin.com/">System Design & Architecture</a>
           </li>
           <li className="transition hover:text-white">
-            <a href="https://facebook.com/">FACEBOOK</a>
+            <a href="https://facebook.com/">End-to-End Product Development</a>
           </li>
         </ul>
       </motion.div>

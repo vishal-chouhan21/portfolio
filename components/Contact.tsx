@@ -94,22 +94,22 @@ export default function Contact() {
           <ContactLink
             icon={<Mail size={18} />}
             title="Email"
-            value="your-email@example.com"
-            href="mailto:your-email@example.com"
+            value="vishalsinghchouhan77@gmail.com"
+            href="mailto:vishalsinghchouhan77@gmail.com"
             accentIndex={2}
           />
           <ContactLink
             icon={<Github size={18} />}
             title="GitHub"
-            value="github.com/your-username"
-            href="https://github.com/"
+            value="github.com/vishal-chouhan21"
+            href="https://github.com/vishal-chouhan21"
             accentIndex={0}
           />
           <ContactLink
             icon={<Linkedin size={18} />}
             title="LinkedIn"
-            value="linkedin.com/in/your-profile"
-            href="https://www.linkedin.com/"
+            value="linkedin.com/in/vishal-singh-chouhan-028463299"
+            href="https://www.linkedin.com/in/vishal-singh-chouhan-028463299"
             accentIndex={1}
           />
         </motion.div>

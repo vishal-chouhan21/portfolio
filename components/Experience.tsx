@@ -18,7 +18,7 @@ export default function Experience() {
         <span className="eyebrow">03 / Experience</span>
         <h2 className="section-title">Where I&apos;ve been building.</h2>
         <p className="section-copy">
-          2+ years of hands-on experience designing, developing and deploying
+          1+ years of hands-on experience designing, developing and deploying
           full-stack applications end-to-end — code, databases and cloud
           infrastructure.
         </p>
