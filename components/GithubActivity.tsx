@@ -54,7 +54,7 @@ export default function GithubActivity() {
             </p>
           </div>
           <a
-            href="https://github.com/"
+            href="https://github.com/vishal-chouhan21"
             target="_blank"
             rel="noreferrer"
             className="inline-flex w-fit items-center gap-2 rounded-full border border-white/15 px-5 py-3 text-sm transition hover:border-indigo-400/40 hover:bg-white/5"
