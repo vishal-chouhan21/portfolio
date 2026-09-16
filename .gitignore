@@ -2,8 +2,8 @@
 .next/
 out/
 dist/
-.env
-.env.local
 .env.*.local
 *.log
 .DS_Store
+config.bat
+node_modules
