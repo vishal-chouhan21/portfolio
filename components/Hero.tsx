@@ -15,7 +15,7 @@ export default function Hero() {
 
       {/* Top nav */}
       <div className="relative z-30 flex w-full items-center justify-center px-6 py-6 sm:px-10 xl:px-16">
-        <div className="hidden items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 translate-y-22 sm:flex">
+        <div className="hidden items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 translate-y-10 sm:flex">
           <span className="h-2 w-2 rounded-full bg-emerald-400" />
           <span className="text-xs font-medium text-zinc-300">
             Full-Stack Developer
